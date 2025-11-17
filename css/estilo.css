@@ -1,0 +1,169 @@
+
+*{
+    color: #252822; /* define a cor do texto para todos os elementos da pagina*/
+};
+
+a{
+    text-decoration: none;
+    transition: 4s;
+}
+
+.secundary-color{
+    color: #555;
+}
+
+.center-image{
+    background-size: cover;
+    background-position: center;
+}
+
+.btn{
+    text-decoration: none;
+    background-color: #8c00ff;
+    color: #fff;
+    padding: 7px 18px;
+    border-radius: 0;
+}
+
+.btn-hover{
+    background-color: #333;
+    color: #fff;
+}
+
+/* header */
+#header{
+    text-align: center;/* alinha o texto no centro */
+    padding: 20px;/* espaçamento interno no 20px */
+    border-bottom: 4px solid #8c00ff; /* add uma linha na parte inferior */
+}
+
+#logo-container{
+    display: flex; /* ativa o modelo do layout flexivel */
+    justify-content: center;/* centraliza horizontalmente os elementos do container */
+}
+
+#logo{
+    width: 55px; /* define a largura do logo */
+    height: 55px; /* define a altura do logo */
+    margin-right: 15px; /* margem direita de 15 px para o logo*/
+}
+
+#header p{
+    margin-bottom: 0;/* remove a margem do paragrafo que esta dentro do navbar */
+}
+
+/* navbar */
+#navbar{
+    padding: 10px;
+    margin: 10px;
+}
+#navbar a {/*links navbar*/
+    width: 80px;
+    color:#444;
+}
+#navbar a:hover{/*mudar a cor dos links da navbar ao passar o cursor*/
+    color:#ff00b3;
+}
+
+/* main image */
+.main-image{
+    height: 400px;
+    background-image: url('../img/tech.jpg');
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.main-image-info{
+    background-color: #fff;
+    padding: 25px;
+    position: absolute;
+    left: 25px;
+    bottom: 25px;
+}
+
+/* Gallery */
+
+h1{
+    text-align: center;
+}
+
+#prod1{
+    background-image: url('/img/img1.jpg');
+}
+
+#prod2{
+    background-image: url('/img/img2.png');
+}
+
+#prod3{
+    background-image: url('/img/img3.jpeg');
+}
+
+#prod4{
+    background-image: url('/img/img4.jpg');
+}
+
+#prod5{
+    background-image: url('/img/img5.jpg');
+}
+
+#prod6{
+    background-image: url('/img/img6.jpg');
+}
+
+.small-image-container{
+    height: 200px; /*ou o tamanho que quiser*/
+    width: 100%;
+    background-size: contain; /*Faz a imagem caber inteira*/
+    background-position: center;
+    background-repeat: no-repeat; /*Evitar repetição*/
+}
+
+/*Preço*/
+
+.preco-container{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-family: Arial, sans-serif;
+}
+
+.preco-novo{
+    color: #8c00ff;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.desconto{
+    background-color: #8c00ff;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 0.9em;
+}
+
+/* FOOTER */
+
+footer{
+    border-top: 1px solid #ccc;
+    height: 250px;
+    padding: 30px;
+}
+
+footer{
+    font-size: 20px;
+}
+
+#social-icons-container div{
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+    margin: 10px;
+}
+
+a:hover i{
+    color: #c1b691;
+}
